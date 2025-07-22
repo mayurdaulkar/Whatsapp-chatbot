@@ -1,0 +1,47 @@
+# 🤖 WhatsApp Chatbot Workflow (n8n)
+
+This is a ready-to-use **n8n workflow** for building an AI-powered WhatsApp chatbot.
+
+---
+
+## 🔍 What it does
+
+- Replies to WhatsApp messages in real-time  
+- Uses **Google Gemini** for smart answers  
+- Sends emails using **Gmail API**  
+- Solves calculations  
+- Answers questions using **Wikipedia**  
+- Remembers past chats using **LangChain Memory**
+
+---
+
+## 🛠️ What you need
+
+Before using this workflow, make sure to set up:
+
+- **n8n** (desktop or hosted)
+- **WhatsApp API** credentials  
+- **Google Gemini (PaLM) API** key  
+- **Gmail OAuth2 credentials**  
+- Tools setup in LangChain: Wikipedia, Calculator, Gmail, Memory
+
+---
+
+## 📥 How to use
+
+1. Import the `.json` file into your n8n  
+2. Add your own API credentials  
+3. Activate the workflow  
+4. Test it by sending a message via WhatsApp  
+
+---
+
+## ⚠️ Note
+
+Make sure to **add all required credentials** before running the workflow.
+
+---
+
+## 🤝 Want to collaborate?
+
+Feel free to reach out if you'd like to improve or build more features together!
